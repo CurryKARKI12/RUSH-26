@@ -1,20 +1,34 @@
 # RUSH-26
- Terminal Hero
+# Terminal Hero - Jeu éducatif Bash
 
-**Terminal Hero** est un petit jeu interactif écrit entièrement en Bash, développé dans le cadre de l'exercice "Shell Basics - Semaine 1" du module C00.
 
-## 🎯 Objectif
+**Apprenez les commandes terminal en jouant !** Un jeu interactif en Bash pour débutants.
 
-Apprendre à interagir avec l'ordinateur via le terminal, automatiser des tâches simples, et manipuler les fichiers et les répertoires à travers un projet ludique.
 
-## 🕹️ Description du jeu
+## 🌟 Fonctionnalités
 
-Le joueur doit deviner un nombre mystère entre 1 et 10. Il a un nombre limité d'essais. Le script vérifie les entrées et donne des indications ("plus grand", "plus petit"). À la fin, il affiche un message de réussite ou d'échec
+- ✅ 3 niveaux progressifs
+- ✅ Système de scoring
+- ✅ Sauvegarde des résultats
+- ✅ Validation des entrées
+- ✅ Interface conviviale
 
-## 📁 Contenu
+## 🚀 Installation
 
-- `terminal_hero.sh` : le script principal du jeu.
-- `README.md` : ce fichier de documentation.
+### Prérequis
+- Terminal Linux/MacOS ou WSL (Windows)
+- Bash (v4.0+)
+
+### Étapes
+```bash
+# 1. Télécharger
+curl -O https:https://github.com/CurryKARKI12/RUSH-26.git
+
+# 2. Rendre exécutable
+chmod +x terminal_hero.sh
+
+# 3. Lancer
+./terminal_hero.sh
 
 
 ## ⚙️ Instructions d’usage
@@ -31,6 +45,7 @@ chmod +x terminal_hero.sh
 1. **Clonez le dépôt :**
 
 ```bash
-git clone https://github.com/votre-utilisateur/terminal-hero.git
+git clone https:/github.com/CurryKARKI12/RUSH-26.git
 cd terminal-hero
 https://github.com/CurryKARKI12/RUSH-26.git
+Ce jeu a été conçu pour accompagner les débutants dans leur apprentissage de la ligne de commande Linux. Amusez-vous en progressant, et devenez un Terminal Hero !
